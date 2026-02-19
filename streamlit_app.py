@@ -4,8 +4,8 @@ import os ## for handling file paths
 
 from app.ingestion import VectorStoreManager,split_documents,EmbeddingManager,load_pdfs_from_directory
 from app.retriever import HybridRetriever
-from app.rag_chain import rag_generate
 from app.utils import load_environment
+from app.rag_chain import rag_generate
 ### now we can use streamlit to create a simple interface for our RAG application
 def main(): 
     st.title("Satellite Manual RAG Application")
