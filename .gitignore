@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# MacOS
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Data (Optional: exclude large vector store files if not needed in repo)
+# data/vectorStore/
